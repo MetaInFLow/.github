@@ -1,6 +1,6 @@
 # MetaInFlow
 
-MetaInFlow（原子 AI）是一家帮助企业建立 **AI Native 核心能力** 的 AI Agent / Skill 工程公司。
+MetaInFlow（原子 AI）由 **源子（深圳）人工智能有限公司** 建设和维护，是一家帮助企业建立 **AI Native 核心能力** 的 AI Agent / Skill 工程公司。
 
 我们关注的不是“AI 能不能做某件事”，而是谁能把 AI 真正装进业务场景，让业务流程跑顺、数据沉淀下来，并让 AI 在日常工作中持续产生复利。
 
@@ -26,16 +26,15 @@ MetaInFlow 采用服务和产品互相增强的双引擎路径：
 
 我们的长期方向是让企业不只是“使用 AI 工具”，而是拥有自己的 AI 工作系统：业务流程有结构，数据能沉淀，Agent 能协同，经验能被蒸馏成新的 Skill 和数字分身。
 
-## Public Product Matrix
+## Product Matrix
 
-这里只展示 MetaInFlow 当前公开仓库。私有客户项目、内部交付材料、私有知识库和凭证相关内容不在这里列出。
+这里只展示 MetaInFlow 当前公开产品方向。私有客户项目、内部交付材料、私有知识库和凭证相关内容不在这里列出。
 
-| 产品 / 模块 | Public repo | 定位 |
-| --- | --- | --- |
-| ReplicateMe.skill | [MetaInFLow/ReplicateMe.skill](https://github.com/MetaInFLow/ReplicateMe.skill) | 构建 AnthonyHF-style 数字分身 Skill 仓库，组织 identity、PSP/person model、memory、integrations 和安全边界。 |
-| Enterprise AI Scenario Map Skill | [MetaInFLow/Enterprise-ai-scenario-map-skill](https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill) | 面向企业自动生成 AI 应用场景地图报告，支持场景发现、优先级判断和落地路径规划。 |
-| MetaInFlow Skills | [MetaInFLow/metainflow-skills](https://github.com/MetaInFLow/metainflow-skills) | MetaInFlow 的 Skill 集合，用于沉淀可复用 AI Agent 工作流。 |
-| MetaInFlow Studio CLI | [MetaInFLow/metainflow-studio-cli](https://github.com/MetaInFLow/metainflow-studio-cli) | 面向本地工作流和工具工作台的 CLI 项目。 |
+| 产品 | 定位 |
+| --- | --- |
+| Basebuilder | 面向企业业务现场的 AI Native 数据底座与工作系统构建器，用于把销售、项目、运营、财务等流程快速结构化，并沉淀为可持续演进的业务系统。 |
+| OpenlifeOS | 面向个人与团队的长期上下文、知识资产和数字分身操作系统，用于组织记忆、任务、决策、身份模型和 AI 协作关系。 |
+| Cowdy Studio | 面向 AI Agent / Skill 工程的创作、编排和交付工作台，用于把可复用工作流沉淀成 Skill、Agent、脚本、模板和验证门禁。 |
 
 ## How We Build
 
@@ -57,4 +56,4 @@ MetaInFlow 的工程原则：
 - 私有 wiki、个人长期记忆正文或未经授权的训练材料。
 - API key、token、cookie、refresh token、私钥或其他凭证。
 
-For public collaboration, start from the repositories listed above.
+For public collaboration, start from the public repositories in this organization.
