@@ -1,57 +1,89 @@
 # MetaInFlow
 
-MetaInFlow 由 **源子（深圳）人工智能有限公司** 建设和维护，是一家帮助企业建立 **AI Native 核心能力** 的 AI Agent / Skill 工程公司。
+MetaInFlow 由 **源子（深圳）人工智能有限公司** 建设和维护，是一家面向企业 AI Native 转型的 AI Agent / Skill 工程组织。
 
-我们关注的不是“AI 能不能做某件事”，而是谁能把 AI 真正装进业务场景，让业务流程跑顺、数据沉淀下来，并让 AI 在日常工作中持续产生复利。
+我们关注的不是“AI 能不能做某件事”，而是企业如何把 AI 放进真实业务现场：让业务流程能跑顺，数据和上下文能沉淀，经验能被复用，并让 Agent 在日常协作中持续进化。
 
-我们帮助企业定义人类与 AI 的协同范式：人类负责目标、判断、边界和业务现场，AI Agent 负责结构化执行、上下文沉淀、岗位化协作和持续进化。
+## What We Build
 
-## What We See
+MetaInFlow 的公开工作集中在四类系统：
 
-很多企业做 AI 或数字化转型时，不是输在模型能力，而是输在承接系统：
-
-- **接不住数据**：没有统一的数字底座，业务数据和上下文散落在各处。
-- **推不动业务**：老板想推进，但业务团队没有被真正带入现场。
-- **工具各自为战**：GPT、飞书、表格、业务系统和知识库彼此割裂，最终没有形成结构性优势。
-
-所以 MetaInFlow 做的不是概念验证，而是把 AI 放进业务现场，帮企业形成能被复用、能被观察、能继续进化的工作系统。
-
-## Our Approach
-
-MetaInFlow 采用服务和产品互相增强的双引擎路径：
-
-- **服务进入现场**：通过诊断、培训、咨询和定制开发，找到真实业务卡点。
-- **系统承接流程**：把销售、项目、物料、运营、财务等动态业务快速结构化，沉淀到可持续使用的业务系统里。
-- **Agent 承接协作**：通过岗位化 Agent、团队工作区、长期上下文和 context graph，让企业的业务过程变成可复用的 AI 工作资产。
-
-我们的长期方向是让企业不只是“使用 AI 工具”，而是拥有自己的 AI 工作系统：业务流程有结构，数据能沉淀，Agent 能协同，经验能被蒸馏成新的 Skill 和数字分身。
-
-## Product Matrix
-
-这里只展示 MetaInFlow 当前公开产品方向。私有客户项目、内部交付材料、私有知识库和凭证相关内容不在这里列出。
-
-| 产品 | 定位 |
-| --- | --- |
-| [Basebuilder](https://www.basebuilder.cn) | 面向企业业务现场的 AI Native 数据底座与工作系统构建器，用于把销售、项目、运营、财务等流程快速结构化，并沉淀为可持续演进的业务系统。 |
-| [OpenlifeOS](https://github.com/MetaInFLow/openLifeOS) | 面向个人与团队的长期上下文、知识资产和数字分身操作系统，用于组织记忆、任务、决策、身份模型和 AI 协作关系。 |
-| Cowdy Studio | 面向 AI Agent / Skill 工程的创作、编排和交付工作台，用于把可复用工作流沉淀成 Skill、Agent、脚本、模板和验证门禁。 |
-
-## Open Source Projects
-
-这里只展示 MetaInFlow 当前公开开源项目。私有客户项目、内部交付材料、私有知识库和凭证相关内容不在这里列出。
-
-| 项目 | Repo | 定位 |
+| 方向 | 说明 | 代表项目 |
 | --- | --- | --- |
-| OpenlifeOS | [MetaInFLow/openLifeOS](https://github.com/MetaInFLow/openLifeOS) | 面向长期上下文、个人知识资产和数字分身的开源系统。 |
-| Enterprise AI Scenario Map Skill | [MetaInFLow/Enterprise-ai-scenario-map-skill](https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill) | 面向企业自动生成 AI 应用场景地图报告，支持场景发现、优先级判断和落地路径规划。 |
-| MetaInFlow Skills | [MetaInFLow/metainflow-skills](https://github.com/MetaInFLow/metainflow-skills) | MetaInFlow 的 Skill 集合，用于沉淀可复用 AI Agent 工作流。 |
-| MetaInFlow Studio CLI | [MetaInFLow/metainflow-studio-cli](https://github.com/MetaInFLow/metainflow-studio-cli) | 面向本地工作流和工具工作台的 CLI 项目。 |
+| 企业 AI 工作系统 | 把销售、项目、运营、财务等动态业务结构化为可持续演进的业务系统。 | [BaseBuilder CLI](https://github.com/MetaInFLow/basebuilder-cli) |
+| LifeOS 与数字分身 | 把人格、技能、审美、经历、记忆和长期复盘沉淀为可运行的长期智能核心。 | [openLifeOS](https://github.com/MetaInFLow/openLifeOS), [LifeOS Studio](https://github.com/MetaInFLow/LifeOS-studio) |
+| Agent Skill 工程 | 把可复用的专业工作流沉淀为 Skill、模板、脚本、验证门禁和交付协议。 | [Enterprise AI Scenario Map Skill](https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill), [PSP Skill](https://github.com/MetaInFLow/psp-skill), [InnerAtlas Skill](https://github.com/MetaInFLow/innerAtlas-skill) |
+| Agent 运行评估与经验挖掘 | 对 Agent session、证据、判断、复盘和经验晋升建立可追踪的工程流程。 | [EvoZeus](https://github.com/MetaInFLow/EvoZeus), [Moment Miner](https://github.com/MetaInFLow/moment-miner) |
+
+## Public Repository Snapshot
+
+以下信息基于 GitHub public API，在 **2026-06-18（UTC+8）** 核对。
+
+| 指标 | 当前公开情况 |
+| --- | --- |
+| GitHub 组织 | [MetaInFLow](https://github.com/MetaInFLow) |
+| 公开仓库 | 15 个，其中 1 个是组织 profile 仓库 |
+| 主要语言 | Python 12 个、Shell 1 个、未识别 1 个（不含 `.github`） |
+| Public stars / forks | 621 stars / 31 forks |
+| 最近公开活跃方向 | EvoZeus、Enterprise AI Scenario Map Skill、openLifeOS、LifeOS Studio |
+
+> 说明：公开仓库不等于完整业务版图。客户项目、内部交付材料、私有知识库、运行凭证和未公开产品代码不会出现在这里。
+
+## Start Here
+
+如果你想快速理解 MetaInFlow 当前公开工程，请从这些入口开始：
+
+| 你想了解 | 入口 | 适合阅读的内容 |
+| --- | --- | --- |
+| 长期智能核心 / 数字分身 | [openLifeOS](https://github.com/MetaInFLow/openLifeOS) | LifeOS factory、schema v3、材料治理、长期上下文、runtime evidence。 |
+| LifeOS 的可视化管理与运行 | [LifeOS Studio](https://github.com/MetaInFLow/LifeOS-studio) | LifeOS source 的管理、部署、操作和演进平台。 |
+| Agent session 如何被复盘和判定 | [EvoZeus](https://github.com/MetaInFLow/EvoZeus) | Evidence、Case、Verdict、Artifact、Skill Driven Software。 |
+| 企业 AI 场景怎么系统识别 | [Enterprise AI Scenario Map Skill](https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill) | 企业画像、行业扫描、30+ AI 场景地图、优先级和落地路径。 |
+| 真实人物如何转化为 AI 替身 | [PSP Skill](https://github.com/MetaInFLow/psp-skill) | Personal Soul Protocol、风格保真、能力增强、验证协议。 |
+| 个人定位和自我认知报告 | [InnerAtlas Skill](https://github.com/MetaInFLow/innerAtlas-skill) | 问心报告、经历重构、能力水位、个人 BP。 |
+
+## Public Project Map
+
+### Core Systems
+
+| Repo | Public positioning |
+| --- | --- |
+| [openLifeOS](https://github.com/MetaInFLow/openLifeOS) | Persistent Lifelong Intelligence Kernel，用协议、模板、脚本和门禁生成个人、团队或组织的长期智能核心。 |
+| [LifeOS Studio](https://github.com/MetaInFLow/LifeOS-studio) | 数字人和智能体操作系统管理与开发平台，用来保存、部署、操作和演进 Avatar 的 LifeOS 源码。 |
+| [EvoZeus](https://github.com/MetaInFLow/EvoZeus) | The Judgment Layer for AI Agents，用 Evidence、Case、Verdict 和 Artifact 管理真实 Agent session 的判断结果。 |
+| [basebuilder-cli](https://github.com/MetaInFLow/basebuilder-cli) | BaseBuilder 注册用户的本地命令行客户端，负责登录、协议编排、本地 run metadata、manual 和 per-Base Skill 产物。 |
+
+### LifeOS Runtime And Experience Tools
+
+| Repo | Public positioning |
+| --- | --- |
+| [future-stone](https://github.com/MetaInFLow/future-stone) | LifeOS Decision Simulation Agent，把一个真实选择放进多条可能时间线中推演。 |
+| [moment-miner](https://github.com/MetaInFLow/moment-miner) | Codex / Agent session 复盘与高价值 session 识别工具包。 |
+
+### Agent Skills
+
+| Repo | Public positioning |
+| --- | --- |
+| [Enterprise-ai-scenario-map-skill](https://github.com/MetaInFLow/Enterprise-ai-scenario-map-skill) | 咨询型 AI Agent Skill，为企业生成 AI 应用场景地图报告。 |
+| [psp-skill](https://github.com/MetaInFLow/psp-skill) | Personal Soul Protocol v2.1，把真实人物转化为可运行 AI 替身的工程协议。 |
+| [innerAtlas-skill](https://github.com/MetaInFLow/innerAtlas-skill) | InnerAtlas / 问心，用于个人定位、自我认知、职业经历重构和个人 BP 输出。 |
+| [ipo-reverse-skill](https://github.com/MetaInFLow/ipo-reverse-skill) | 从已完成产出物逆向复原专家认知任务、隐性方法论、中间思考资产和最终 IPO 链路。 |
+| [taste-generator-skill](https://github.com/MetaInFLow/taste-generator-skill) | 基于 owner-approved design taste choices 生成可持续使用的 `DESIGN.md`。 |
+| [ceo-agent-skill](https://github.com/MetaInFLow/ceo-agent-skill) | 公开描述较少的实验性 Skill 仓库，当前 repo description 为 `Replicate of Qing`。 |
+
+### Collections And Infrastructure
+
+| Repo | Public positioning |
+| --- | --- |
+| [metainflow-skills](https://github.com/MetaInFLow/metainflow-skills) | MetaInFlow Skills collection。 |
+| [metainflow-studio-cli](https://github.com/MetaInFLow/metainflow-studio-cli) | Local tools studio for YuanClaw。 |
+| [.github](https://github.com/MetaInFLow/.github) | MetaInFlow GitHub organization profile。 |
 
 ## How We Build
 
 MetaInFlow 的工程原则：
 
-- 先进入真实业务现场，再定义 AI 场景和系统边界。
+- 先进入真实业务现场，再定义 AI 场景、系统边界和交付深度。
 - 先让业务流程跑顺，再让数据沉淀，最后让 Agent 持续进化。
 - 把一次性交付沉淀成可复用 Skill、脚本、模板、上下文图谱和验证门禁。
 - 对公开材料、私有记忆、客户资料和系统凭证做清晰边界隔离。
@@ -59,7 +91,7 @@ MetaInFlow 的工程原则：
 
 ## Public Boundary
 
-公开仓库只放可公开的产品、工具和通用方法说明。
+公开仓库只放可公开的产品、工具、协议和通用方法说明。
 
 不会在公开仓库中提交：
 
